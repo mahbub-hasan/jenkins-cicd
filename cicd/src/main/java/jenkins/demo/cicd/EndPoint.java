@@ -13,7 +13,7 @@ public class EndPoint {
 
     @GetMapping(value = "/listOfStudents")
     public ResponseEntity<List<String>> getListOfStudents(){
-        List<String> students = Arrays.asList("Jon","Dau","Robin");
+        List<String> students = Arrays.asList("Jon","Dau","Robin","ANis");
 
         return new ResponseEntity<>(students, HttpStatus.OK);
     }
